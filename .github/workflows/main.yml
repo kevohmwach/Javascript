@@ -17,3 +17,4 @@ jobs:
         server: ftpupload.net
         username: ${{ secrets.DEVDEMO_FTP_USERNAME }}
         password: ${{ secrets.DEVDEMO_FTP_PASSWORD }}
+        server-dir: /htdocs/
